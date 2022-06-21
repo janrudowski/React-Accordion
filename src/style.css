@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500&display=swap');
+* {
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+.accordion {
+  /* margin: 10px;
+  padding: 10px; */
+  margin: 20px;
+  border: 1px solid #f8f8f8;
+  width: 800px;
+  border-radius: 10px;
+  background-color: #fefefe;
+  /* padding: 10px; */
+}
+.accordion-section {
+  /* padding: 10px; */
+}
+.accordion-btn {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.accordion-btn p {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.accordion-btn p > * {
+  margin-right: 10px;
+}
+.accordion-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 300ms ease-in-out;
+  background-color: #f4f4f4;
+}
+.accordion-content p {
+  padding: 10px;
+}
+.icon {
+  width: 16px;
+  height: auto;
+}
+.chevron {
+  transform: rotate(-180deg);
+  transition: transform 300ms;
+}
+
+.chevron--active {
+  transform: rotate(0);
+}
