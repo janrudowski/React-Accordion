@@ -7,7 +7,7 @@ function App() {
       <AccordionSection
         icon={settingsIcon}
         title='Sort Home By Featured Posts'
-        content='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, porro corrupti. Sint cumque tempora minima optio reiciendis sunt. Libero, animi.'
+        content='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima non ipsa voluptates. Inventore aliquam facere eligendi? Magni veniam earum dicta impedit nisi a possimus, consectetur praesentium perferendis quos animi ad unde quam ipsa, ducimus similique tempora explicabo nulla laudantium, eaque fugit ipsum. Rerum soluta odio praesentium nulla veritatis eaque totam?'
       />
       <AccordionSection
         icon={squaresIcon}

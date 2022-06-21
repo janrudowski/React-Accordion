@@ -7,7 +7,7 @@ function AccordionSection(props) {
   const content = useRef(null);
   function toggle() {
     setIsActive((prevState) => !prevState);
-    setHeight(isActive ? `${content.current.scrollHeight}px` : '0px');
+    setHeight(isActive ? '0px' : `${content.current.scrollHeight}px`);
   }
   return (
     <div className='accordion-section'>
